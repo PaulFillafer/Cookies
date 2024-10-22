@@ -1,0 +1,12 @@
+Create Cookies With PHP
+A cookie is created with the setcookie() function.
+
+Syntax
+setcookie(name, value, expire, path, domain, secure, httponly);
+
+
+Modify a Cookie Value
+To modify a cookie, just set (again) the cookie using the setcookie() function:
+
+Check if Cookies are Enabled
+The following example creates a small script that checks whether cookies are enabled. First, try to create a test cookie with the setcookie() function, then count the $_COOKIE array variable:
