@@ -10,3 +10,19 @@ To modify a cookie, just set (again) the cookie using the setcookie() function:
 
 Check if Cookies are Enabled
 The following example creates a small script that checks whether cookies are enabled. First, try to create a test cookie with the setcookie() function, then count the $_COOKIE array variable:
+
+Start a PHP Session
+A session is started with the session_start() function.
+
+Get PHP Session Variable Values
+Next, we create another page called "demo_session2.php". From this page, we will access the session information we set on the first page ("demo_session1.php").
+
+Notice that session variables are not passed individually to each new page, instead they are retrieved from the session we open at the beginning of each page (session_start()).
+
+Modify a PHP Session Variable
+To change a session variable, just overwrite it:
+
+Destroy a PHP Session
+To remove all global session variables and destroy the session, use session_unset() and session_destroy():
+
+
